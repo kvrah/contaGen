@@ -84,7 +84,7 @@ public class Menu {
 				tipo = leia.nextInt();	
 				}while (tipo <1 && tipo>2);
 				
-				System.out.println("\n Digite o saldo da conyta: ");
+				System.out.println("\n Digite o saldo da conta: ");
 				saldo = leia.nextFloat();
 				
 				switch(tipo) {
