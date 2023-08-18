@@ -23,8 +23,13 @@ public class Menu {
 
 		System.out.println("\nCriar Contas\n");
 		contaCorrente cc1 = new contaCorrente(contas.gerarNumero(), 123, 1, "Richard Campos", 2000f, 100.0f);
+		contas.cadastrar(cc1);
 		contaCorrente cc2 = new contaCorrente(contas.gerarNumero(), 125, 1, "Joao Gomes", 5000f, 100.0f);
+		contas.cadastrar(cc2);
 		ContaPoupanca cp1 = new ContaPoupanca(contas.gerarNumero(), 126 , 2, "Guilherme Rocha", 4000f, 12);
+		contas.cadastrar(cp1);
+		ContaPoupanca cp2 = new ContaPoupanca(contas.gerarNumero(), 125, 2, "Juliana Ramos", 8000f, 15);
+		contas.cadastrar(cp2);
 		
 		contas.listarTodas();
 
